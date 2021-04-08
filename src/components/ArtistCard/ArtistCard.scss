@@ -1,0 +1,13 @@
+.artist-card {
+    max-width: 350px;
+    max-height: auto;
+    display: block;
+    text-decoration: none;
+    
+    img {
+        width: 150px;
+        height: auto;
+        image-orientation: flip;
+        image-rendering: pixelated;
+    }
+}

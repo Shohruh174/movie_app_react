@@ -1,0 +1,53 @@
+.upcoming-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .upcoming-card {
+        width: auto;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        text-align: center;
+        overflow: hidden;
+        font-style: normal;
+        position: relative;
+        background-color: white;
+        transition: all ease 0.5s;
+        &:hover {
+            box-shadow: 5px 7px 15px 7px #353333;
+        }
+    }
+    .bottom {
+        padding: 35px 0;
+        max-width: 200px;
+    }
+    .upcoming-img {
+        height: 300px;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+    .upcoming-title {
+        margin-bottom: 15px;
+        font-style: normal;
+        color: #000000;
+    }
+    .upcoming-rating {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        padding: 7px 17px;
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .upcoming-date {
+        color: #000000;
+    }
+}
+
+
+
+
+    

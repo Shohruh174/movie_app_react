@@ -1,0 +1,54 @@
+.toprate-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-rated {
+    margin-top: 100px;
+    width: auto;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    font-style: normal;
+    position: relative;
+    background-color: white;
+    transition: all ease 0.5s;
+    overflow: hidden;
+    &:hover {
+        box-shadow: 5px 7px 15px 7px #353333;
+    }
+    .card-img {
+        height: 300px;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+    .toprated-title, .toprated-date {
+        margin-bottom: 15px;
+        font-style: normal;
+        color: #000000;
+    }
+
+    .bottom {
+        padding: 35px 0;
+        max-width: 200px;
+    }
+}
+
+.upcoming-card {
+    width: auto;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    font-style: normal;
+    position: relative;
+    background-color: white;
+    transition: all ease 0.5s;
+    &:hover {
+        box-shadow: 5px 7px 15px 7px #353333;
+    }
+}
